@@ -29,7 +29,7 @@ class _ShowTimePickerHomePageState extends State<ShowTimePickerHomePage> {
             children: <Widget>[
               Text('Waktu yang dipilih: ${this.time.toString()}'),
               RaisedButton(
-                child: Text('Pilih Wakru'),
+                child: Text('Pilih Waktu'),
                 onPressed: () {
                   selectDate(context);
                 },
